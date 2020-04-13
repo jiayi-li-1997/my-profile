@@ -1,0 +1,92 @@
+body {
+	background-color: #202040;
+	color: #ff6363;
+	font-family: 'Neucha', cursive;
+	font-size: 30px;
+	line-height: 1.6;
+	letter-spacing: 0.5px;
+	font-weight: 100;
+	text-justify: center;
+
+}
+h1, h2 {
+	font-family: 'Major Mono Display', monospace;
+	color: rgb(0, 0, 0);
+	font-weight: bolder;
+}
+h1 {
+	
+	font-size: 50px;
+
+}
+h2{
+	font-size: 40px;
+}
+a {
+	font-family: 'VT323', monospace;
+	text-decoration: none;
+	font-weight: bold;
+	color: #543864;
+	transform: color 0.3s ease;
+
+}
+a:hover {
+	color: rgb(0, 0, 0);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 900px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.9);
+	border-radius: 4px；
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.card:hover {
+	color: #ffbd69;
+}
+#introduction {
+	background-color: #ffbd69;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.9);
+	border-radius: 4px；
+	margin: 40px 0px;
+	text-align: center;
+}
+
+.img-circle-shadowed {
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb();
+}
